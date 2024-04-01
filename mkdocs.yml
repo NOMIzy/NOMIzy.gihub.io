@@ -1,0 +1,7 @@
+site_name: NOMI`s Wiki
+theme:
+  name: material
+nav:
+- 开始:
+  - index.md
+  - about.md
