@@ -16,22 +16,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://nomizy.github.io/data_access/introduction/</loc>
+         <lastmod>2024-04-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nomizy.github.io/data_encode_store/introduction/</loc>
+         <lastmod>2024-04-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://nomizy.github.io/data_process/introduction/</loc>
          <lastmod>2024-04-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://nomizy.github.io/date_access/introduction/</loc>
-         <lastmod>2024-04-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://nomizy.github.io/date_encode_store/introduction/</loc>
-         <lastmod>2024-04-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://nomizy.github.io/introduction/introduction_1/</loc>
+         <loc>https://nomizy.github.io/introduction/introduction/</loc>
          <lastmod>2024-04-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
