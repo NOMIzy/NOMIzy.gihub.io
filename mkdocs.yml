@@ -5,6 +5,7 @@ site_url: https://nomizy.github.io
 repo_name: NOMIzy/nomizy.github.io
 repo_url: https://github.com/NOMIzy/nomizy.github.io
 copyright: Copyright &copy; 2024 - Future NOMI
+remote_branch: master
 theme:
   name: material
   language: en
