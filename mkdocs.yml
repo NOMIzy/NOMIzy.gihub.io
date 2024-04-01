@@ -1,7 +1,72 @@
 site_name: NOMI-Wiki
+site_description: NOMI Wiki
+site_author: NOMI
+site_url: https://nomizy.github.io
+repo_name: NOMIzy/nomizy.github.io
+repo_url: https://github.com/NOMIzy/nomizy.github.io
+copyright: Copyright &copy; 2024 - Future NOMI
 theme:
   name: material
+  language: en
+  palette:
+    primary: white
+    accent: red
+    scheme: preference
+  icon:
+    repo: fontawesome/brands/github-alt
+  logo: https://github.com/NOMIzy/resource_repository/raw/master/nomi.png
+  features:
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - search.suggest
+  - search.highlight
+  - search.share
+  font:
+    text: Noto Sans
+    code: Source Code Pro
+plugins:
+- search
+- minify:
+    minify_html: true
 nav:
-- 开始:
-  - index.md
-  - about.md
+- Introduction:
+  - introduction/introduction.md
+- 数据编码与存储:
+  - data_encode_store/introduction.md
+- 数据获取:
+  - data_access/introduction.md
+- 数据处理:
+  - data_process/introduction.md
+- 应用集成:
+  - application/introduction.md
+markdown_extensions:
+- admonition
+- md_in_html
+- codehilite:
+    guess_lang: false
+- def_list
+- footnotes
+- meta
+- toc:
+    permalink: true
+- pymdownx.arithmatex
+- pymdownx.caret
+- pymdownx.critic
+- pymdownx.details
+- pymdownx.emoji:
+    emoji_index: !!python/name:materialx.emoji.twemoji ''
+    emoji_generator: !!python/name:materialx.emoji.to_svg ''
+- pymdownx.highlight
+- pymdownx.inlinehilite
+- pymdownx.keys
+- pymdownx.magiclink
+- pymdownx.mark
+- pymdownx.smartsymbols
+- pymdownx.superfences:
+    custom_fences:
+    - name: mermaid
+      class: mermaid
+      format: !!python/name:pymdownx.superfences.fence_code_format ''
+- pymdownx.tasklist:
+    custom_checkbox: true
+- pymdownx.tilde

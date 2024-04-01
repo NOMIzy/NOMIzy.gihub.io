@@ -1,6 +1,6 @@
 # Welcome to MkDocs
 
-Hi! This is NOMI!
+Hi! This is NOMI!😆
 
 ## Commands
 
