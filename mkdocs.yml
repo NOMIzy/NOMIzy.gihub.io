@@ -1,0 +1,42 @@
+site_name: NOMI-Wiki
+site_description: NOMI Wiki
+site_author: NOMI
+site_url: https://nomizy.github.io
+repo_name: NOMIzy/nomizy.github.io
+repo_url: https://github.com/NOMIzy/nomizy.github.io
+copyright: Copyright &copy; 2024 - Future NOMI
+remote_branch: master
+theme:
+  name: material
+  language: en
+  palette:
+    primary: white
+    accent: red
+    scheme: preference
+  icon:
+    repo: fontawesome/brands/github-alt
+  logo: https://github.com/NOMIzy/resource_repository/raw/master/nomi.png
+  features:
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - search.suggest
+  - search.highlight
+  - search.share
+  font:
+    text: Noto Sans
+    code: Source Code Pro
+plugins:
+- search
+- minify:
+    minify_html: true
+nav:
+- Introduction:
+  - introduction/introduction.md
+- 数据编码与存储:
+  - data_encode_store/introduction.md
+- 数据获取:
+  - data_access/introduction.md
+- 数据处理:
+  - data_process/introduction.md
+- 应用集成:
+  - application/introduction.md
